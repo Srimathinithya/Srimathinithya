@@ -16,7 +16,7 @@
 - 🔭 Currently working on **Python + PostgreSQL Integration Projects**  
 - 🌱 Learning **REST APIs**, **Data Engineering**, and **System Design**  
 - 💬 Ask me about: Python, SQL, Databases, Full Stack Projects  
-- 📫 Reach me at: **youremail@gmail.com**
+- 📫 Reach me at: **csesrimathi@gmail.com**
 
 ---
 
@@ -70,8 +70,8 @@ _Tracks travel budgets and generates reports using Python and PostgreSQL._
 
 ## 📫 Let's Connect
 
-- 🔗 [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN-ID)
-- ✉️ Email: youremail@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/srimathi-sekaran-335179274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- ✉️ Email: csesrimathi@gmail.com
 
 ---
 
