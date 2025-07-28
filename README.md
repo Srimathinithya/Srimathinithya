@@ -51,11 +51,7 @@ Here are a few projects I’ve worked on recently:
 
 ### 🗃️ Student Record Manager  
 _A simple Python + SQLite GUI project for managing student data._  
-🔗 [View on GitHub](https://github.com/srimathisekaran/student-record-manager)
-
-### 🌍 Travel Expense Tracker  
-_Tracks travel budgets and generates reports using Python and PostgreSQL._  
-🔗 [View on GitHub](#) *(Update with your actual repo)*
+🔗 [View on GitHub](https://github.com/Srimathinithya/student-record-manager.git)
 
 ---
 
