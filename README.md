@@ -59,15 +59,6 @@ _Tracks travel budgets and generates reports using Python and PostgreSQL._
 
 ---
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=srimathisekaran&show_icons=true&theme=tokyonight" alt="stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=srimathisekaran&layout=compact&theme=tokyonight" height="165"/>
-</p>
-
----
-
 ## 📫 Let's Connect
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/srimathi-sekaran-335179274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
