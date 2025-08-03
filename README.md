@@ -13,7 +13,7 @@
 ## 💫 About Me
 
 - 🎓 Final-year B.E CSE Student @ Jai Shriram Engineering College  
-- 🔭 Currently working on **Python + PostgreSQL Integration Projects**  
+- 🔭 Currently working on **ETL Project**  
 - 🌱 Learning **Data Engineering**
 - 💬 Ask me about: Python, SQL, Databases, Full Stack Projects  
 - 📫 Reach me at: **csesrimathi@gmail.com**
