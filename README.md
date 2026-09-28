@@ -1,137 +1,142 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Srimathi%20Sekaran&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Junior%20Data%20Engineer%20%7C%20Python%20%7C%20Cloud%20Data%20Systems&descSize=17&descAlignY=60&descColor=a8d8ea" alt="Srimathi Sekaran — Junior Data Engineer, Python and Cloud Data Systems" width="100%" />
+<img src="./assets/header.gif" width="100%" alt="Srimathi Sekaran — Engineering data into impact. Data engineering, Python, and cloud systems." />
 
-<a href="https://www.linkedin.com/in/srimathi-sekaran-335179274"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:csesrimathi@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/Srimathinithya/portfolio"><img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repository" /></a>
-<a href="https://github.com/Srimathinithya/data-engineering-projects"><img src="https://img.shields.io/badge/Data_Engineering_Projects-203A43?style=for-the-badge&logo=github&logoColor=white" alt="Data engineering projects" /></a>
+# Hi, I’m Srimathi Sekaran
 
-**Building reliable pipelines, analytical data systems, and Python applications.**
+**Junior Data Engineer · Python Developer · Cloud Data Systems**
 
-Coimbatore, Tamil Nadu, India
+Building reliable pipelines, useful analytics, and thoughtful backend systems.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-d4f680?style=for-the-badge&logo=linkedin&logoColor=101311)](https://www.linkedin.com/in/srimathi-sekaran-335179274)
+[![Email](https://img.shields.io/badge/Email-d4f680?style=for-the-badge&logo=gmail&logoColor=101311)](mailto:csesrimathi@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-252f23?style=for-the-badge&logo=github&logoColor=d4f680)](https://github.com/Srimathinithya/portfolio)
+[![Projects](https://img.shields.io/badge/Explore_my_projects-252f23?style=for-the-badge&logo=github&logoColor=d4f680)](https://github.com/Srimathinithya/data-engineering-projects)
+
+**Coimbatore, India** · **Aggregate Intelligence India Private Limited**
 
 </div>
 
 ---
 
-## 👩‍💻 About Me
+## A little about me
 
-I'm a **Junior Data Engineer at Aggregate Intelligence India Private Limited**, working on hospitality data pipelines, cloud migrations, and SQL analytics since **October 2025**.
+I’m a **Junior Data Engineer at Aggregate Intelligence**, working on hospitality data systems since **October 2025**. I build ETL pipelines, automate REST API ingestion, and turn complex datasets into consistent, queryable information.
 
-- Built ETL workflows migrating **500+ GB** of hospitality data across AWS S3, Wasabi, PostgreSQL, and MongoDB.
-- Automated competitor reporting and refresh workflows, saving **5 hours per week**.
-- Applied data quality checks across Airflow- and cron-orchestrated batch workflows, reducing data errors by **50%**.
-- Built concurrent API ingestion with Redis deduplication, blocking up to **70% of duplicate payloads** before MongoDB writes.
-- Developed a **Credential Management Platform** with role-based approvals and just-in-time PostgreSQL access.
+My work connects **Python and Spark**, **cloud storage and databases**, and **data quality and business reporting**. I also build FastAPI applications and explore machine learning, MLOps, and LLM tooling through my project work and technical toolkit.
 
-```python
-class DataEngineer:
-    name = "Srimathi Sekaran"
-    role = "Junior Data Engineer"
-    company = "Aggregate Intelligence India Private Limited"
-    location = "Coimbatore, India"
+- **Data pipelines:** Cloud migrations, batch processing, schema normalization, and incremental loads.
+- **Analytics:** PostgreSQL warehousing, competitor benchmarking, CTEs, and window functions.
+- **Backend systems:** FastAPI services, role-based approvals, and temporary database access.
+- **Reliable operations:** Airflow and cron orchestration, validation, execution logging, and alerts.
 
-    focus = [
-        "ETL / ELT pipelines and cloud data migration",
-        "Data warehousing and SQL analytics",
-        "REST API ingestion and FastAPI services",
-        "Data quality, orchestration, and observability",
-    ]
-    ai_toolkit = ["LangChain", "LangGraph", "LlamaIndex", "n8n AI Agents"]
-```
+## Work in numbers
 
-## 💼 Experience
+| 500+ GB | Up to 70% | 50% | 5 hours/week |
+| :--- | :--- | :--- | :--- |
+| Hospitality data migrated across cloud storage and databases | Duplicate payloads blocked before MongoDB writes | Reduction in data errors through workflow validation | Saved through automated report refreshes |
 
-### Junior Data Engineer · Aggregate Intelligence India Private Limited
-**October 2025 – Present**
+## Selected projects
 
-- Engineer Python, Pandas, and Apache Spark pipelines for hospitality datasets, including JSON/BSON flattening and REST-based ingestion with FastAPI.
-- Build competitor benchmarking reports with CTEs, window functions, and data partitioning.
-- Orchestrate distributed batch workflows with Apache Airflow and cron, supported by Docker, execution logging, monitoring, and validation.
-- Design PostgreSQL warehousing schemas and use PySpark for distributed transformations and scalable analytical processing.
+### 01 / Credential Management Platform
 
-**Earlier training**
+**Approval-based database access with an expiration date.**
 
-- **Software Testing Trainee · CloudZoo India Softwares:** Stress and load testing to assess scalability and reliability and identify pre-deployment defects.
-- **Web Developer Trainee · Gateway Software Solutions:** Interactive HTML, CSS, and JavaScript components with cross-browser compatibility.
+A platform with separate **user, admin, and super-admin workspaces**, built around process- and server-specific access requests.
 
-## 🛠️ Tech Stack
+- Admins review requests and assign the appropriate database role.
+- Just-in-time provisioning creates temporary PostgreSQL users with one-time password display.
+- Access is revoked on expiry; audit and rotation history support tracking.
+- AWS Secrets Manager supports credential-package management.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+**Built with:** FastAPI · Next.js · PostgreSQL · AWS Secrets Manager
+
+### 02 / [Cloud Data Migration & ETL Platform](https://github.com/Srimathinithya/data-engineering-projects/tree/master/01-cloud-data-migration-etl)
+
+**Moving large datasets while preserving consistency.**
+
+Multi-stage ETL for **500+ GB of hospitality data** across AWS S3, Wasabi, PostgreSQL, and MongoDB. Uses batch partitioning, schema validation, delta loads, and Spark transformations to support consistent refresh cycles.
+
+**Built with:** Python · Apache Spark · Pandas · PostgreSQL · MongoDB · AWS S3 · Wasabi
+
+### 03 / [Advanced Real-Time Ingestion](https://github.com/Srimathinithya/data-engineering-projects/tree/master/10-advanced-realtime-ingestion)
+
+**Validate once. Deduplicate early. Write efficiently.**
+
+A concurrent producer-consumer workflow using a thread-safe queue, Pydantic validation, Redis key caching, and MongoDB bulk upserts. Blocks **up to 70% of duplicate payloads** before persistence.
+
+**Built with:** Python · Redis · Pydantic · MongoDB · Docker
+
+### 04 / [Competitor Price Volatility Analytics](https://github.com/Srimathinithya/data-engineering-projects/tree/master/04-competitor-price-analytics)
+
+**Turning pricing data into repeatable analytical reports.**
+
+Competitor benchmarks and volatility scorecards using advanced SQL, reusable views, and partitioned queries, with automated report generation and email delivery.
+
+**Built with:** PostgreSQL · CTEs · Window Functions · Pandas · SMTP
+
+<details>
+<summary><strong>Explore more projects — ingestion, warehousing, observability, and ML</strong></summary>
+
+<br>
+
+| Project | Focus | Main technologies |
+| :--- | :--- | :--- |
+| [REST API Ingestion](https://github.com/Srimathinithya/data-engineering-projects/tree/master/02-realtime-api-ingestion) | Normalize 15+ API schemas with scheduled hourly collection | Python, PyMongo, Pandas, cron |
+| [Attendance Data Warehouse](https://github.com/Srimathinithya/data-engineering-projects/tree/master/03-attendance-data-warehouse) | Partitioned reporting for 1,000+ student records | Spark, PostgreSQL, SQL |
+| [Student Data Platform](https://github.com/Srimathinithya/data-engineering-projects/tree/master/05-student-data-platform) | CRUD APIs, indexed queries, and bulk ingestion | FastAPI, MongoDB, Spark |
+| [ETL Monitoring & Alerting](https://github.com/Srimathinithya/data-engineering-projects/tree/master/06-etl-monitoring-alerting) | Schema drift, row-count checks, and failure alerts | Python, logging, Pandas, SMTP |
+| [AIOps Predictive Maintenance](https://github.com/Srimathinithya/data-engineering-projects/tree/master/07-aiops-predictive-maintenance) | Unsupervised anomaly detection on machine telemetry | Scikit-learn, Isolation Forest, PostgreSQL |
+| [Customer Satisfaction MLOps](https://github.com/Srimathinithya/data-engineering-projects/tree/master/08-customer-satisfaction-mlops) | Classification, experiment tracking, and model registry | MLflow, Scikit-learn, Pandas |
+| [Sales Forecasting API](https://github.com/Srimathinithya/data-engineering-projects/tree/master/09-sales-forecasting-analytics) | ARIMA forecasting with 30-day predictions via an API | FastAPI, Statsmodels, PostgreSQL |
+
+</details>
+
+## My toolkit
+
+![Python](https://img.shields.io/badge/Python-252f23?style=flat-square&logo=python&logoColor=d4f680)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-252f23?style=flat-square&logo=apachespark&logoColor=d4f680)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-252f23?style=flat-square&logo=postgresql&logoColor=d4f680)
+![MongoDB](https://img.shields.io/badge/MongoDB-252f23?style=flat-square&logo=mongodb&logoColor=d4f680)
+![FastAPI](https://img.shields.io/badge/FastAPI-252f23?style=flat-square&logo=fastapi&logoColor=d4f680)
+![Docker](https://img.shields.io/badge/Docker-252f23?style=flat-square&logo=docker&logoColor=d4f680)
 
 | Area | Technologies & practices |
 | :--- | :--- |
-| Languages & libraries | Python, SQL, Java, Pandas, NumPy, PyMongo |
-| Data engineering | ETL/ELT, Apache Spark, PySpark, batch processing, Delta Tables, data cleaning and transformation, distributed processing |
-| Warehousing & analytics | Data modeling, schema design, partitioning, CTEs, window functions, materialized views |
-| Databases & storage | PostgreSQL, MongoDB, MongoDB Atlas, NoSQL, Redis, AWS S3, Wasabi Object Storage |
-| APIs & applications | FastAPI, REST API development and integration, automated ingestion, microservices, Pydantic, Next.js |
-| Orchestration & DevOps | Apache Airflow, cron scheduling, Docker, Git, pipeline monitoring and alerting, execution logging, data validation |
-| AI engineering & LLM systems | LangChain, LangGraph, LlamaIndex, n8n AI Agents |
-| ML & MLOps projects | Scikit-learn, MLflow, Statsmodels, ARIMA, Isolation Forest |
+| **Languages & libraries** | Python, SQL, Java, Pandas, NumPy, PyMongo |
+| **Data engineering** | ETL/ELT, Apache Spark, PySpark, batch processing, Delta Tables, data cleaning, distributed processing |
+| **Data modeling & analytics** | Warehousing, schema design, partitioning, CTEs, window functions, materialized views |
+| **Databases & cloud** | PostgreSQL, MongoDB, MongoDB Atlas, Redis, AWS S3, Wasabi Object Storage |
+| **APIs & applications** | FastAPI, REST APIs, microservices, Pydantic, Next.js |
+| **Orchestration & operations** | Apache Airflow, cron, Docker, Git, execution logging, data validation, monitoring and alerting |
+| **AI & LLM toolkit** | LangChain, LangGraph, LlamaIndex, n8n AI Agents |
+| **ML & MLOps projects** | Scikit-learn, MLflow, Statsmodels, ARIMA, Isolation Forest |
 
-## 🚀 Featured Projects
+## Experience
 
-### 🔐 Credential Management Platform
+**Junior Data Engineer · Aggregate Intelligence India Private Limited**  
+October 2025 – Present
 
-A role-based database access platform built with **FastAPI, Next.js, PostgreSQL, and AWS Secrets Manager**.
+Cloud ETL, distributed transformations, PostgreSQL warehousing, automated benchmarking reports, and validated batch workflows for hospitality datasets.
 
-- Separate **user, admin, and super-admin** workspaces.
-- Access requests tied to a specific **process and server target**, with database roles assigned during approval.
-- **Just-in-time PostgreSQL users**, one-time password display, and automatic access revocation on expiry.
-- Credential-package management with audit and rotation history for access tracking.
+<details>
+<summary><strong>Earlier training</strong></summary>
 
-### 🔄 Data Engineering & Ingestion
+- **Software Testing Trainee · CloudZoo India Softwares** — Stress and load testing to evaluate reliability and scalability and identify pre-deployment defects.
+- **Web Developer Trainee · Gateway Software Solutions** — Interactive HTML, CSS, and JavaScript components with cross-browser compatibility.
 
-| Project | What it does | Core stack |
-| :--- | :--- | :--- |
-| [Cloud Data Migration & ETL Platform](https://github.com/Srimathinithya/data-engineering-projects/tree/master/01-cloud-data-migration-etl) | Multi-stage migration of 500+ GB of hospitality data across cloud storage and databases, using partitioning, schema validation, and delta loads. | Python, Spark, PostgreSQL, MongoDB, AWS S3, Wasabi |
-| [Real-Time API Ingestion Pipeline](https://github.com/Srimathinithya/data-engineering-projects/tree/master/02-realtime-api-ingestion) | Paginated REST ingestion normalizing 15+ JSON schemas into MongoDB, with automated hourly refreshes. | Python, PyMongo, Pandas, cron |
-| [Advanced Real-Time Ingestion](https://github.com/Srimathinithya/data-engineering-projects/tree/master/10-advanced-realtime-ingestion) | Concurrent producer-consumer ingestion with Pydantic validation and Redis caching, blocking up to 70% of duplicate payloads before bulk upserts. | Python, Redis, MongoDB, Pydantic, Docker |
-| [Student Data Management Platform](https://github.com/Srimathinithya/data-engineering-projects/tree/master/05-student-data-platform) | FastAPI and MongoDB CRUD platform with indexed queries and Spark bulk ingestion. | FastAPI, MongoDB, Spark, Docker |
+</details>
 
-### 📊 Data Warehousing & SQL Analytics
-
-| Project | What it does | Core stack |
-| :--- | :--- | :--- |
-| [Attendance Data Warehouse](https://github.com/Srimathinithya/data-engineering-projects/tree/master/03-attendance-data-warehouse) | Spark batch processing and partitioned warehouse reporting for 1,000+ student records, reducing report generation from hours to minutes. | Spark, PostgreSQL, SQL, star schema |
-| [Competitor Price Volatility Analytics](https://github.com/Srimathinithya/data-engineering-projects/tree/master/04-competitor-price-analytics) | Pricing benchmarks and volatility scorecards with reusable SQL views and automated email reports. | PostgreSQL, CTEs, window functions, Pandas, SMTP |
-
-### 🔭 Observability, Machine Learning & MLOps
-
-| Project | What it does | Core stack |
-| :--- | :--- | :--- |
-| [ETL Monitoring & Alerting System](https://github.com/Srimathinithya/data-engineering-projects/tree/master/06-etl-monitoring-alerting) | Pipeline checks for schema drift, row counts, and execution timing, with automated failure alerts. | Python, logging, SMTP, Pandas |
-| [AIOps Predictive Maintenance](https://github.com/Srimathinithya/data-engineering-projects/tree/master/07-aiops-predictive-maintenance) | Unsupervised anomaly detection on machine telemetry using Isolation Forest. | Scikit-learn, Pandas, PostgreSQL |
-| [Sales Forecasting API](https://github.com/Srimathinithya/data-engineering-projects/tree/master/09-sales-forecasting-analytics) | ARIMA forecasting serving 30-day predictions through FastAPI; integration into planning reduced inventory discrepancies by 30%. | FastAPI, Statsmodels, PostgreSQL, Docker |
-| [Customer Satisfaction MLOps](https://github.com/Srimathinithya/data-engineering-projects/tree/master/08-customer-satisfaction-mlops) | Random Forest classification with MLflow experiment logging, metric tracking, and model registry management. | MLflow, Scikit-learn, Pandas, Git |
-
-Explore the code and setup guides in my [data-engineering-projects repository](https://github.com/Srimathinithya/data-engineering-projects).
-
-## 📊 GitHub Activity
+---
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Srimathinithya&show_icons=true&theme=tokyonight&hide_border=true" alt="Srimathi's public GitHub statistics" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srimathinithya&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Languages used across public GitHub repositories" />
+### Let’s build something useful.
 
-</div>
+Data engineering · Python applications · Cloud data systems
 
-## 📫 Let's Connect
+[**LinkedIn ↗**](https://www.linkedin.com/in/srimathi-sekaran-335179274) &nbsp; · &nbsp; [**Email ↗**](mailto:csesrimathi@gmail.com) &nbsp; · &nbsp; [**Project collection ↗**](https://github.com/Srimathinithya/data-engineering-projects)
 
-| Channel | Link |
-| :--- | :--- |
-| LinkedIn | [Srimathi Sekaran](https://www.linkedin.com/in/srimathi-sekaran-335179274) |
-| Email | [csesrimathi@gmail.com](mailto:csesrimathi@gmail.com) |
-| GitHub | [Srimathinithya](https://github.com/Srimathinithya) |
-| Portfolio source | [portfolio](https://github.com/Srimathinithya/portfolio) |
+<sub>Curious by nature. Engineer by practice.</sub>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" alt="" width="100%" />
 </div>
