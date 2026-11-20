@@ -1,48 +1,39 @@
-<div align="center">
+![Srimathi Sekaran, Junior Data Engineer. Three matching landmarks connect two views of the same hotel.](./assets/profile-cover.svg)
 
-<img src="./assets/header.gif" width="100%" alt="Srimathi Sekaran — Engineering data into impact. Data engineering, Python, and cloud systems." />
+I’m a **Junior Data Engineer at Aggregate Intelligence** in Coimbatore, India. I build pipelines that help analysts compare prices and tools that recognize the same hotel across travel sites.
 
-# Hi, I’m Srimathi Sekaran
+[Portfolio](https://srimathinithya.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/srimathi-sekaran-335179274) · [Email](mailto:csesrimathi@gmail.com)
 
-**Junior Data Engineer · Python Developer · Cloud Data Systems**
+## Selected code
 
-I build data pipelines for pricing analysis and use machine learning and computer vision to match hotel listings.
+| Project | Where to start |
+| --- | --- |
+| [Price volatility analysis](https://github.com/Srimathinithya/data-engineering-projects/tree/master/04-competitor-price-analytics) | The [SQL scorecard](https://github.com/Srimathinithya/data-engineering-projects/blob/master/04-competitor-price-analytics/schema.sql) compares hotel rates and ranks their volatility over a rolling seven-day window. |
+| [Concurrent data ingestion](https://github.com/Srimathinithya/data-engineering-projects/tree/master/10-advanced-realtime-ingestion) | Follow a rate update through the [Python consumer](https://github.com/Srimathinithya/data-engineering-projects/blob/master/10-advanced-realtime-ingestion/consumer.py) to see how it checks for duplicates and batches MongoDB writes. |
+| [Temporary database access](https://github.com/Srimathinithya/credential_management_system) | The [architecture guide](https://github.com/Srimathinithya/credential_management_system/blob/main/docs/architecture.md) follows a PostgreSQL access request from role approval to login expiry. |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-d4f680?style=for-the-badge&logo=linkedin&logoColor=101311)](https://www.linkedin.com/in/srimathi-sekaran-335179274)
-[![Email](https://img.shields.io/badge/Email-d4f680?style=for-the-badge&logo=gmail&logoColor=101311)](mailto:csesrimathi@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-252f23?style=for-the-badge&logo=github&logoColor=d4f680)](https://srimathinithya.github.io/portfolio/)
-[![Projects](https://img.shields.io/badge/Explore_my_projects-252f23?style=for-the-badge&logo=github&logoColor=d4f680)](https://github.com/Srimathinithya/data-engineering-projects)
-
-**Coimbatore, India** · **Aggregate Intelligence India Private Limited**
-
-</div>
-
----
+[Browse all 10 data engineering and MLOps projects →](https://github.com/Srimathinithya/data-engineering-projects)
 
 ## Recent work
 
-**Hotel record and image matching.** I worked on matching listings from different providers to the same hotel. A histogram gradient boosting model scores candidate records, and uncertain matches go to human review. I built an OpenCV tool that uses SHA-256 to spot identical files and SIFT features with RANSAC to verify matches between cropped or resized photos.
+**Hotel identity and image matching**  
+Different sites can list the same hotel under different names. I worked on a gradient boosting model that scores candidate records for review. I also built an OpenCV tool that spots identical photos by their SHA-256 hashes and verifies shared landmarks in cropped or resized images with SIFT and RANSAC.
 
-**Self-storage pricing.** I worked on comparing similar units at nearby facilities. Accounting for promotions such as a free first month makes it possible to compare effective rates across stores. I also updated PostgreSQL refresh logic to preserve prior-day summaries for price and inventory comparisons.
+**Self-storage pricing**  
+A free first month can change which facility offers the lower rate. I worked on comparing similar units at nearby stores after accounting for promotions, and on preserving prior-day summaries in PostgreSQL so analysts can track price and inventory changes.
 
-**Rental car delivery.** I added validation and heartbeat logging to a Python delivery pipeline and automated cleanup of expired data. I also corrected backup error handling so Airflow marks the task as failed when the underlying script fails.
+**Rental car delivery**  
+A failed backup used to appear successful in Airflow. I fixed how the script reported errors, added delivery validation and heartbeat logging, and automated cleanup of expired records and output files.
 
-## Public repositories
+<details>
+<summary><strong>Tools and experience</strong></summary>
 
-| Repository | What to look for |
+| Area | Tools I use |
 | --- | --- |
-| [Data engineering projects](https://github.com/Srimathinithya/data-engineering-projects) | Examples covering ingestion, warehouse design, monitoring, and pricing analytics. |
-| [Concurrent API ingestion](https://github.com/Srimathinithya/data-engineering-projects/tree/master/10-advanced-realtime-ingestion) | Pydantic validates incoming records, Redis checks for duplicates, and MongoDB handles bulk writes. |
-| [Competitor price analytics](https://github.com/Srimathinithya/data-engineering-projects/tree/master/04-competitor-price-analytics) | PostgreSQL queries and reporting views for comparing prices and tracking volatility. |
-| [Credential management system](https://github.com/Srimathinithya/credential_management_system) | A FastAPI and PostgreSQL project for requesting, approving, and expiring temporary database access. |
+| Pipelines and analytics | Python, SQL, pandas, Apache Spark, Apache Airflow |
+| Record and image matching | scikit-learn, OpenCV |
+| Databases and services | PostgreSQL, MongoDB, Redis, AWS S3, FastAPI |
 
-## Tools I use
+I joined Aggregate Intelligence as an intern in October 2025 and moved into the Junior Data Engineer role in June 2026.
 
-- **Data engineering** — Python, SQL, pandas, Apache Spark, Apache Airflow
-- **Matching and image analysis** — scikit-learn, OpenCV, SIFT, RANSAC
-- **Storage and backend development** — PostgreSQL, MongoDB, Redis, AWS S3, FastAPI
-
-## Experience
-
-**Aggregate Intelligence** · Coimbatore, India  
-Junior Data Engineer since June 2026. Previously a data engineering intern from October 2025 to June 2026.
+</details>
