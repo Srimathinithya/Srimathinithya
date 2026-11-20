@@ -17,5 +17,5 @@
   <g fill="none" stroke="#f9ca60"><path d="M708 110L977.61 106.04" stroke-width="1.45" stroke-dasharray="4 4"/><circle cx="708" cy="110" r="5" stroke-width="2.4"/><circle cx="977.61" cy="106.04" r="5" stroke-width="2.4"/></g>
   <g fill="none" stroke="#fd9071"><path d="M770 131L1056.35 132.71" stroke-width="1.45" stroke-dasharray="4 4"/><circle cx="770" cy="131" r="5" stroke-width="2.4"/><circle cx="1056.35" cy="132.71" r="5" stroke-width="2.4"/></g>
   <g fill="none" stroke="#c3fa9f"><path d="M755 156L1037.30 164.46" stroke-width="1.45" stroke-dasharray="4 4"/><circle cx="755" cy="156" r="5" stroke-width="2.4"/><circle cx="1037.30" cy="164.46" r="5" stroke-width="2.4"/></g>
-  <g font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#cfdfd8"><text x="665" y="213">Listing A</text><text x="946" y="213">Listing B · cropped</text></g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#cfdfd8"><text x="665" y="213">Listing B</text><text x="946" y="213">Listing B · cropped</text></g>
 </svg>
